@@ -1,0 +1,62 @@
+#QQEmail Config
+#�ٷ�����˵��:http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=369
+#��ȡ�ͻ�����Ȩ��:http://service.mail.qq.com/cgi-bin/help?subtype=1&&no=1001256&&id=28
+spring:
+  mail:
+    host: smtp.qq.com #�����ʼ�������
+    username: 1151757358@qq.com #QQ����
+    password: tpmlrrtlkqfggabe #�ͻ�����Ȩ��
+    protocol: smtp #�����ʼ�Э��
+    properties.mail.smtp.auth: true
+    properties.mail.smtp.port: 465 #�˿ں�465��587
+    properties.mail.display.sendmail: Javen #��������
+    properties.mail.display.sendname: Spring Boot Guide Email #��������
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: utf-8
+    from: 1151757358@qq.com #�������username����һ��
+#˵��������SSLʱʹ��587�˿�ʱ�޷�����QQ�ʼ�������
+
+#����Email Config
+#�ٷ�����˵��:http://mail.163.com/html/110127_imap/index.htm#tab=android
+#��ȡ�ͻ�����Ȩ��:http://help.mail.163.com/faq.do?m=list&categoryID=197
+#spring:
+#  mail:
+#    host: smtp.126.com
+#    username: xx@126.com
+#    password: xxxxxxxx
+#    protocol: smtp
+#    properties.mail.smtp.auth: true
+#    properties.mail.smtp.port: 994 #465����994
+#    properties.mail.display.sendmail: Javen
+#    properties.mail.display.sendname: Spring Boot Guide Email
+#    properties.mail.smtp.starttls.enable: true
+#    properties.mail.smtp.starttls.required: true
+#    properties.mail.smtp.ssl.enable: true
+#    default-encoding: utf-8
+#    from: xx@126.com
+#126����SMTP��������ַ:smtp.126.com,�˿ں�:465����994
+#163����SMTP��������ַ:smtp.163.com,�˿ں�:465����994
+#yeah����SMTP��������ַ:smtp.yeah.net,�˿ں�:465����994
+
+#GooleEmail Config
+#�ٷ�����˵��:https://support.google.com/mail/answer/78754 ��Ҫ��ѧ����
+#spring:
+#  mail:
+#    host: smtp.gmail.com
+#    username:xxx@gmail.com
+#    password: xxxxx #Gmail�˺�����
+#    protocol: smtp
+#    properties.mail.smtp.auth: true
+#    properties.mail.smtp.port: 465
+#    properties.mail.display.sendmail: Javen
+#    properties.mail.display.sendname: Spring Boot Guide Email
+#    properties.mail.smtp.starttls.enable: true
+#    properties.mail.smtp.starttls.required: true
+#    properties.mail.smtp.ssl.enable: true
+#    from: xxx@gmail.com
+#    default-encoding: utf-8
+#Gmail �����ʼ�������Ϊ:smtp.gmail.com,�˿ں�:465���ͻ�����Ȩ��ΪGmail�˺ŵ����룬����ʹ��ʹ��SSL��
+#����Ҫ������������ȫ��Ӧ�� ����Ȼ�����Authentication failed���쳣
+#ѡ���¼�밲ȫ�����ײ��и���������ȫ��Ӧ�ÿ�������
