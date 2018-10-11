@@ -1,26 +1,26 @@
 #QQEmail Config
-#¹Ù·½ÅäÖÃËµÃ÷:http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=369
-#»ñÈ¡¿Í»§¶ËÊÚÈ¨Âë:http://service.mail.qq.com/cgi-bin/help?subtype=1&&no=1001256&&id=28
+#å®˜æ–¹é…ç½®è¯´æ˜:http://service.mail.qq.com/cgi-bin/help?subtype=1&&id=28&&no=369
+#è·å–å®¢æˆ·ç«¯æˆæƒç :http://service.mail.qq.com/cgi-bin/help?subtype=1&&no=1001256&&id=28
 spring:
   mail:
-    host: smtp.qq.com #·¢ËÍÓÊ¼ş·şÎñÆ÷
-    username: 1151757358@qq.com #QQÓÊÏä
-    password: tpmlrrtlkqfggabe #¿Í»§¶ËÊÚÈ¨Âë
-    protocol: smtp #·¢ËÍÓÊ¼şĞ­Òé
+    host: smtp.qq.com #å‘é€é‚®ä»¶æœåŠ¡å™¨
+    username: 1151757358@qq.com #QQé‚®ç®±
+    password: ï¼ƒï¼ƒï¼ƒï¼ƒï¼ƒï¼ƒï¼ƒï¼ƒï¼ƒï¼ƒ #å®¢æˆ·ç«¯æˆæƒç 
+    protocol: smtp #å‘é€é‚®ä»¶åè®®
     properties.mail.smtp.auth: true
-    properties.mail.smtp.port: 465 #¶Ë¿ÚºÅ465»ò587
-    properties.mail.display.sendmail: Javen #¿ÉÒÔÈÎÒâ
-    properties.mail.display.sendname: Spring Boot Guide Email #¿ÉÒÔÈÎÒâ
+    properties.mail.smtp.port: 465 #ç«¯å£å·465æˆ–587
+    properties.mail.display.sendmail: Javen #å¯ä»¥ä»»æ„
+    properties.mail.display.sendname: Spring Boot Guide Email #å¯ä»¥ä»»æ„
     properties.mail.smtp.starttls.enable: true
     properties.mail.smtp.starttls.required: true
     properties.mail.smtp.ssl.enable: true
     default-encoding: utf-8
-    from: 1151757358@qq.com #ÓëÉÏÃæµÄusername±£³ÖÒ»ÖÂ
-#ËµÃ÷£º¿ªÆôSSLÊ±Ê¹ÓÃ587¶Ë¿ÚÊ±ÎŞ·¨Á¬½ÓQQÓÊ¼ş·şÎñÆ÷
+    from: 1151757358@qq.com #ä¸ä¸Šé¢çš„usernameä¿æŒä¸€è‡´
+#è¯´æ˜ï¼šå¼€å¯SSLæ—¶ä½¿ç”¨587ç«¯å£æ—¶æ— æ³•è¿æ¥QQé‚®ä»¶æœåŠ¡å™¨
 
-#ÍøÒ×Email Config
-#¹Ù·½ÅäÖÃËµÃ÷:http://mail.163.com/html/110127_imap/index.htm#tab=android
-#»ñÈ¡¿Í»§¶ËÊÚÈ¨Âë:http://help.mail.163.com/faq.do?m=list&categoryID=197
+#ç½‘æ˜“Email Config
+#å®˜æ–¹é…ç½®è¯´æ˜:http://mail.163.com/html/110127_imap/index.htm#tab=android
+#è·å–å®¢æˆ·ç«¯æˆæƒç :http://help.mail.163.com/faq.do?m=list&categoryID=197
 #spring:
 #  mail:
 #    host: smtp.126.com
@@ -28,7 +28,7 @@ spring:
 #    password: xxxxxxxx
 #    protocol: smtp
 #    properties.mail.smtp.auth: true
-#    properties.mail.smtp.port: 994 #465»òÕß994
+#    properties.mail.smtp.port: 994 #465æˆ–è€…994
 #    properties.mail.display.sendmail: Javen
 #    properties.mail.display.sendname: Spring Boot Guide Email
 #    properties.mail.smtp.starttls.enable: true
@@ -36,17 +36,17 @@ spring:
 #    properties.mail.smtp.ssl.enable: true
 #    default-encoding: utf-8
 #    from: xx@126.com
-#126ÓÊÏäSMTP·şÎñÆ÷µØÖ·:smtp.126.com,¶Ë¿ÚºÅ:465»òÕß994
-#163ÓÊÏäSMTP·şÎñÆ÷µØÖ·:smtp.163.com,¶Ë¿ÚºÅ:465»òÕß994
-#yeahÓÊÏäSMTP·şÎñÆ÷µØÖ·:smtp.yeah.net,¶Ë¿ÚºÅ:465»òÕß994
+#126é‚®ç®±SMTPæœåŠ¡å™¨åœ°å€:smtp.126.com,ç«¯å£å·:465æˆ–è€…994
+#163é‚®ç®±SMTPæœåŠ¡å™¨åœ°å€:smtp.163.com,ç«¯å£å·:465æˆ–è€…994
+#yeahé‚®ç®±SMTPæœåŠ¡å™¨åœ°å€:smtp.yeah.net,ç«¯å£å·:465æˆ–è€…994
 
 #GooleEmail Config
-#¹Ù·½ÅäÖÃËµÃ÷:https://support.google.com/mail/answer/78754 ĞèÒª¿ÆÑ§ÉÏÍø
+#å®˜æ–¹é…ç½®è¯´æ˜:https://support.google.com/mail/answer/78754 éœ€è¦ç§‘å­¦ä¸Šç½‘
 #spring:
 #  mail:
 #    host: smtp.gmail.com
 #    username:xxx@gmail.com
-#    password: xxxxx #GmailÕËºÅÃÜÂë
+#    password: xxxxx #Gmailè´¦å·å¯†ç 
 #    protocol: smtp
 #    properties.mail.smtp.auth: true
 #    properties.mail.smtp.port: 465
@@ -57,6 +57,6 @@ spring:
 #    properties.mail.smtp.ssl.enable: true
 #    from: xxx@gmail.com
 #    default-encoding: utf-8
-#Gmail ·¢ËÍÓÊ¼ş·şÎñÆ÷Îª:smtp.gmail.com,¶Ë¿ÚºÅ:465¡£¿Í»§¶ËÊÚÈ¨ÂëÎªGmailÕËºÅµÄÃÜÂë£¬±ØĞëÊ¹ÓÃÊ¹ÓÃSSL¡£
-#»¹ĞèÒª¿ªÆôÔÊĞí²»¹»°²È«µÄÓ¦ÓÃ £¬²»È»»á³öÏÖAuthentication failedµÄÒì³£
-#Ñ¡ÔñµÇÂ¼Óë°²È«»¬µ½µ×²¿ÓĞ¸öÔÊĞí²»¹»°²È«µÄÓ¦ÓÃ¿ªÆô¼´¿É
+#Gmail å‘é€é‚®ä»¶æœåŠ¡å™¨ä¸º:smtp.gmail.com,ç«¯å£å·:465ã€‚å®¢æˆ·ç«¯æˆæƒç ä¸ºGmailè´¦å·çš„å¯†ç ï¼Œå¿…é¡»ä½¿ç”¨ä½¿ç”¨SSLã€‚
+#è¿˜éœ€è¦å¼€å¯å…è®¸ä¸å¤Ÿå®‰å…¨çš„åº”ç”¨ ï¼Œä¸ç„¶ä¼šå‡ºç°Authentication failedçš„å¼‚å¸¸
+#é€‰æ‹©ç™»å½•ä¸å®‰å…¨æ»‘åˆ°åº•éƒ¨æœ‰ä¸ªå…è®¸ä¸å¤Ÿå®‰å…¨çš„åº”ç”¨å¼€å¯å³å¯
